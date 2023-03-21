@@ -1,0 +1,42 @@
+.Feed {
+  flex: 0.5;
+  border-right: 1px transparent ;
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.Feed-header {
+  position: sticky;
+  top: 0;
+  background-color: rgb(84, 179, 235);
+  z-index: 100;
+  border: 1px transparent ;
+  padding: 15px 20px;
+}
+
+.Feed-header > h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+
+.Feed_Date {
+  font-size: 12px;
+  color: rgb(106, 110, 112);
+}
+
+.Feed_User {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(23, 153, 228);
+}
+
+.Feed_Message {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+
+.Feed_ChirpCard {
+  border: 1px solid;
+  border-color: rgb(225, 228, 230)
+}

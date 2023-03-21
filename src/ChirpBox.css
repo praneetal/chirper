@@ -1,0 +1,38 @@
+.ChirpBox {
+    padding-bottom: 10px;
+    border-bottom: 8px transparent;
+    padding-right: 10px;
+}
+  
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChirpBox-Input {
+    padding: 20px;
+    display: flex;
+    width: 600px ;
+    height: 200px ;
+}
+  
+.ChirpBox-Input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: rgb(225, 228, 230)
+}
+
+.ChirpBox-Button {
+  background-color: rgb(84, 179, 235) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  border-radius: 30px !important;
+  width: 80px !important;
+  height: 40px !important;
+  margin-top: 20px !important;
+  margin-left: 40px !important;
+}

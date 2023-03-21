@@ -1,0 +1,21 @@
+.SideBar {
+    flex: 0.4;
+    border-right: 1px transparent ;
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+
+.SideBar-header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(84, 179, 235);
+    z-index: 100;
+    border: 1px transparent ;
+    padding: 15px 20px;
+  }
+
+.SideBar-header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+  }
